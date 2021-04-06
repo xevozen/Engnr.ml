@@ -1,5 +1,4 @@
-# [![Project Logo](http://engnr.ml/media/icon.png)Engnr.ml](http://engnr.ml) 
-<div>
+# [![Project Logo](http://engnr.ml/media/icon.png)Engnr.ml](http://engnr.ml) <div>
 	<img src="https://opensource.org/files/osi_keyhole_300X300_90ppi_0.png" alt="Open Source" width="100px">
 </div>
 
