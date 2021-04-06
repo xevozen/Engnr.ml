@@ -1,4 +1,4 @@
-# [![Project Logo](http://engnr.ml/media/icon.png)Engnr.ml](http://engnr.ml) 
+# [![Project Logo](http://engnr.ml/media/icon.png)Engnr.ml(http://engnr.ml) ![Open Source](https://opensource.org/files/osi_keyhole_300X300_90ppi_0.png)] 
 
 [![Initial Author: Souhardhya Paul](https://img.shields.io/badge/Initial%20Author-Souhardhya%20Paul-red)](https://github.com/xevozen) [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/) ![HTML 5](https://img.shields.io/badge/html-5-orange) ![CSS 3](https://img.shields.io/badge/css-3-blue) ![JS ES5+](https://img.shields.io/badge/js-ES5%2B-yellow) ![PHP Version 7.0+](https://img.shields.io/badge/php-7.0+-blue) [![URL: engnr.ml](https://img.shields.io/badge/URL-engnr.ml-brightgreen)](http://engnr.ml)
 
@@ -33,7 +33,7 @@ Any server supporting above technologies will work fine.
 * Import the [SQL structure](./engnr-ml.sql) into your phpmyadmin console panel.
 * Change the [db_info.php](./php/db_info.php) with your own database configuration details.
 
-### :star:+:one: If you've found this interesting :sparkling_heart: 
+### :star:+1 If you've found this interesting :sparkles:
 
 ### :black_nib: Authors
   - **Souhardhya Paul** - *Initial author(2021)* - [xevozen](https://github.com/xevozen)
