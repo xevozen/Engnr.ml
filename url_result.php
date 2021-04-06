@@ -297,7 +297,7 @@ if ($srt_url=="") {
 
 			<div class="footer-3-1">
 
-				Deve<i class="fa fa-heart"></i>ed by Souhardhya Paul &nbsp <i class="fa fa-copyright"></i>2020
+				Deve<i class="fa fa-heart"></i>ed by Souhardhya Paul &nbsp <i class="fa fa-copyright"></i>2021
 
 			</div>
 

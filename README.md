@@ -3,6 +3,7 @@
 [![Initial Author: Souhardhya Paul](https://img.shields.io/badge/Initial%20Author-Souhardhya%20Paul-red)](https://github.com/xevozen) [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/) ![HTML 5](https://img.shields.io/badge/html-5-orange) ![CSS 3](https://img.shields.io/badge/css-3-blue) ![JS ES5+](https://img.shields.io/badge/js-ES5%2B-yellow) ![PHP Version 7.0+](https://img.shields.io/badge/php-7.0+-blue) [![URL: engnr.ml](https://img.shields.io/badge/URL-engnr.ml-brightgreen)](http://engnr.ml)
 
 <div>
+	<img src="media/icon1200x630.png" alt="Open Source" width="150px" >
 	<img src="https://opensource.org/files/osi_keyhole_300X300_90ppi_0.png" alt="Open Source" width="75px">
 </div>
 
@@ -15,6 +16,9 @@
   - Open-source Project
   - Open for contribution
   - Licensed under MIT Open Source
+
+### Website Demo
+![Website Demo](media/DEMO.gif)  
   
 ### :rocket: Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -37,7 +41,7 @@ Any server supporting above technologies will work fine.
 * Import the [SQL structure](./engnr-ml.sql) into your phpmyadmin console panel.
 * Change the [db_info.php](./php/db_info.php) with your own database configuration details.
 
-### :star:+1 If you've found this interesting :sparkles:
+#### :star:+1 If you've found this interesting :sparkles:
 
 ### :black_nib: Authors
   - **Souhardhya Paul** - *Initial author(2021)* - [xevozen](https://github.com/xevozen)
