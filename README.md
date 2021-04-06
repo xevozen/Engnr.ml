@@ -1,4 +1,7 @@
-# [![Project Logo](http://engnr.ml/media/icon.png)Engnr.ml(http://engnr.ml) ![Open Source](https://opensource.org/files/osi_keyhole_300X300_90ppi_0.png)] 
+# [![Project Logo](http://engnr.ml/media/icon.png)Engnr.ml](http://engnr.ml) 
+<div>
+	<img src="https://opensource.org/files/osi_keyhole_300X300_90ppi_0.png" alt="Open Source" width="100px">
+</div>
 
 [![Initial Author: Souhardhya Paul](https://img.shields.io/badge/Initial%20Author-Souhardhya%20Paul-red)](https://github.com/xevozen) [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/) ![HTML 5](https://img.shields.io/badge/html-5-orange) ![CSS 3](https://img.shields.io/badge/css-3-blue) ![JS ES5+](https://img.shields.io/badge/js-ES5%2B-yellow) ![PHP Version 7.0+](https://img.shields.io/badge/php-7.0+-blue) [![URL: engnr.ml](https://img.shields.io/badge/URL-engnr.ml-brightgreen)](http://engnr.ml)
 
