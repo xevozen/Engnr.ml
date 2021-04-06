@@ -33,7 +33,7 @@ Any server supporting above technologies will work fine.
 * Import the [SQL structure](./engnr-ml.sql) into your phpmyadmin console panel.
 * Change the [db_info.php](./php/db_info.php) with your own database configuration details.
 
-### :star::heavy_plus_sign::one: If you've found this interesting :sparkling_heart: 
+### :star:+:one: If you've found this interesting :sparkling_heart: 
 
 ### :black_nib: Authors
   - **Souhardhya Paul** - *Initial author(2021)* - [xevozen](https://github.com/xevozen)
