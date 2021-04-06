@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Engnr.ml - Free URL Shortener</title>
+
+	<meta name="description" content="The best free and opensource URL link shortener. This project is open for contribution.">
+
+	<link rel="canonical" href="http://engnr.ml/"/>
+
+	<meta name="robots" content="index, follow">
+
+	<meta property="og:type" content="website" />
+
+	<meta property="og:title" content="Engnr.ml - Free URL Shortener" />
+
+	<meta property="og:description" content="The best free and opensource URL link shortener which is open for contribution. Engnr.ml is a reliable website to shorten URL which are difficult ot remember." />
+
+	<meta property="og:image" content="http://engnr.ml/media/icon1200x630.png" />
+
+	<meta property="og:url" content="http://engnr.ml/" />
+
+	<meta property="og:site_name" content="Engnr.ml" />
+
+	<meta property="og:locale" content="en-US">
+
+	
+
+	<meta name="twitter:title" content="Engnr.ml - Free URL Shortener">
+
+	<meta name="twitter:description" content="The best free and opensource URL link shortener which is open for contribution. Engnr.ml is a reliable website to shorten URL which are difficult ot remember.">
+
+	<meta name="twitter:image" content="http://engnr.ml/media/icon1200x630.png">
+
+	<meta name="twitter:site" content="@souhardhya">
+
+	<meta name="twitter:creator" content="@souhardhya">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
+
+	<meta name="keywords" content="The best free and opensource URL link shortener. This project is open for contribution." />
+
+	<meta charset="utf-8">
+
+	<link rel = "icon" href ="media/icon.png" type = "image/x-icon"> 
+
+	
+
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  
+
+
+
+	<!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
+
+
+
+	<!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>-->
+
+
+
+	<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>-->
+
+
+
+	<script src="js/index.js"></script>
+
+	<script async="" src="js/site_stats.js"></script>
+
+
+
+</head>
+
+<body class="body" onload="update_stat(1)" onscroll="animation1()">
+
+	<div class="overlay">
+
+		<div id="obj1">			
+
+		</div>
+
+		<div id="obj2">			
+
+		</div>
+
+		<div id="obj3">			
+
+		</div>
+
+		<div id="obj4">			
+
+		</div>
+
+		<div id="obj5">			
+
+		</div>
+
+	</div>
+
+	<div>
+
+<!-- 		<div style="filter: blur(20px); width: 450px; margin: 0px auto 0px; height: 160px; z-index: -1;position: absolute; right: 0; left: 0; background-color: #dee0df; opacity: 0.6;">
+
+		</div> -->
+
+		<div class="bg-blur">
+
+		</div>
+
+		<div class="title">
+
+			<label>Engnr.ml</label>
+
+		</div>
+
+		<div class="sub-title">
+
+			<label>Free URL Shortener</label>
+
+		</div>
+
+	</div>
+
+	<div class="url-box" style=" position: relative;">
+
+		<div id="reset_input" onclick="reset_input()">
+
+				<i class="fa fa-times fa-lg" aria-hidden="true"></i>
+
+		</div>
+
+		<form name="myForm" action="php/shorten.php" onsubmit="return myFunction()" method="post" novalidate="">			
+
+			<input type="url" name="url_bar" onkeyup="url_bar_change()" placeholder="Type or paste URL">
+
+			<button type="submit"><i class="fa fa-link"></i> Shorten URL</button>
+
+			<label id="error">
+
+				<i class="fa fa-info-circle"></i>&nbsp;
+
+				<label id="error-msg">Invalid URL: Enter proper URL</label>
+
+			</label>
+
+		</form>
+
+	</div>
+
+	<div class="site_stat">
+
+		<div class="site_stat_element">
+
+			<h1 id="one">
+
+				0
+
+			</h1>
+
+			<label>
+
+				Visitors
+
+			</label>
+
+		</div>
+
+		<div class="site_stat_element">
+
+			<h1 id="two">
+
+				0
+
+			</h1>
+
+			<label>
+
+				Redirects
+
+			</label>
+
+		</div>
+
+		<div class="site_stat_element">
+
+			<h1 id="three">
+
+				0
+
+			</h1>
+
+			<label>
+
+				Links Shortened
+
+			</label>
+
+		</div>
+
+		<div class="site_stat_element">
+
+			<h1 id="four">
+
+				0
+
+			</h1>
+
+			<label>
+
+				People Liked
+
+			</label>
+
+		</div>
+
+	</div>
+
+	<div id="feedback">
+
+		<div style="flex: 1;">
+
+			<div style="padding: 20px; margin: 0 auto 0; color: #e63232">
+
+				<i class="fa fa-heart fa-3x"></i>
+
+			</div>
+
+		</div>
+
+		<div id="feedback2" style="flex: 4">
+
+			<div style="margin: 2px; text-overflow: ellipsis;">
+
+				Let us know your review !
+
+			</div>
+
+			<div style="display: flex; margin: 0px">
+
+				<!-- <div style="flex: 1; border: solid;">
+
+					<i class="fa fa-dot-circle-o fa-2x"></i>
+
+				</div> -->
+
+				<div id="like" onclick="review(this.id)" style="flex: 1; padding: 10px;">
+
+					<i class="fa fa-thumbs-up fa-2x"></i>
+
+				</div>
+
+				<div id="dislike" onclick="review(this.id)" style="flex: 1; padding: 10px">
+
+					<i class="fa fa-thumbs-down fa-2x"></i>
+
+				</div>
+
+				<div id="loader" style="flex: 1; padding: 10px; color: #3e8bde; visibility: hidden;">
+
+					<i class="fa fa-refresh fa-spin fa-2x"></i>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+
+	<!--- Footer starts here -->
+
+	<div class="footer">
+
+		<div class="footer_title">
+
+			<label>Engnr.ml</label>
+
+		</div>
+
+		<div class="footer-1">
+
+			<ul style=" margin: 10px;">
+
+				<li><a href="files/tnc.txt">Terms of Use</a></li>
+
+				<li><a href="files/contactus.txt">Contact Us</a></li>
+
+				<li><a href="https://github.com/xevozen/Engnr.ml">GitHub Repository</a></li>
+
+			</ul>
+
+		</div>
+
+		<div class="footer-2">
+
+		</div>
+
+		<div class="footer-3">
+
+			<div class="footer-3-1">
+
+				Deve<i class="fa fa-heart"></i>ed by Souhardhya Paul &nbsp; <i class="fa fa-copyright"></i>2020
+
+			</div>
+
+			<div class="footer-3-2">
+
+				<a href="https://github.com/xevozen" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+
+				<a href="https://www.linkedin.com/in/xevozen/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+
+				<i class="fa fa-facebook fa-3x"></i>
+
+				<i class="fa fa-twitter fa-3x"></i>
+
+				<i class="fa fa-youtube fa-3x"></i>
+
+				<i class="fa fa-envelope fa-3x"></i>
+
+				<i class="fa fa-instagram fa-3x"></i>
+
+			</div>
+
+			
+
+		</div>
+
+
+
+	</div>
+
+</body>
+
+</html>

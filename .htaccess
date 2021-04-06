@@ -1,0 +1,18 @@
+
+# HTID:14938862: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:14938862:
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /front_controller.php [NC,L,QSA]
+Options -Indexes
+# Header add Access-Control-Allow-Origin "*"
+
+# RewriteEngine On
+# # Multiple hour blocks
+# # If the hour is 4 PM or 5 PM or 8 AM
+# RewriteCond %{TIME_HOUR} ^16|17|08$
+# # Then deny all access
+# RewriteRule ^.*$ - [F,L]
