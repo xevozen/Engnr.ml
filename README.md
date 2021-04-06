@@ -1,4 +1,4 @@
-# [![GitHub Logo](http://engnr.ml/media/icon.png)Engnr.ml](http://engnr.ml) 
+# [![Project Logo](http://engnr.ml/media/icon.png)Engnr.ml](http://engnr.ml) 
 
 [![Initial Author: Souhardhya Paul](https://img.shields.io/badge/Initial%20Author-Souhardhya%20Paul-red)](https://github.com/xevozen) [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/) ![HTML 5](https://img.shields.io/badge/html-5-orange) ![CSS 3](https://img.shields.io/badge/css-3-blue) ![JS ES5+](https://img.shields.io/badge/js-ES5%2B-yellow) ![PHP Version 7.0+](https://img.shields.io/badge/php-7.0+-blue) [![URL: engnr.ml](https://img.shields.io/badge/URL-engnr.ml-brightgreen)](http://engnr.ml)
 
@@ -36,15 +36,12 @@ Any server supporting above technologies will work fine.
 ### Authors
   - **Souhardhya Paul** - *Initial author(2021)* - [xevozen](https://github.com/xevozen)
 
-<div style="display: inline-block; border: 2px solid; width: 150px; padding: 5px; margin: 3px;">
+<div style="display: inline-block; width: 150px; padding: 5px; margin: 3px;">
 	<center>
 		<img src="https://avatars0.githubusercontent.com/u/47949303?s=460&v=4" alt="Profile Pic" width="120px">
 		<br>
 		<label style="font-size: 18px; font-weight: bold;">Souhardhya Paul</label>
 	</center>
-</div>
-<div style="height: 100px; width: 300px; position: fixed; bottom: 10px; right: 10px; background-color: #2a9d8f;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s; ">
-	
 </div>
 
 ### License
