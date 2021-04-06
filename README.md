@@ -34,9 +34,9 @@ Any server supporting above technologies will work fine.
 * Change the [db_info.php](./php/db_info.php) with your own database configuration details.
 
 ### Authors
-  - **Souhardhya Paul** - *Initial author(2020)* - [xevozen](https://github.com/xevozen)
+  - **Souhardhya Paul** - *Initial author(2021)* - [xevozen](https://github.com/xevozen)
 
-<div style="display: inline-block; border: 2px solid; width: 150px; padding: 5px; border-radius: 5px; margin: 3px;">
+<div style="display: inline-block; border: 2px solid; width: 150px; padding: 5px; margin: 3px;">
 	<center>
 		<img src="https://avatars0.githubusercontent.com/u/47949303?s=460&v=4" alt="Profile Pic" width="120px">
 		<br>
